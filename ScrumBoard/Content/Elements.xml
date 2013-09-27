@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_flat_0_aaaaaa_40x100.png" Url="Content/jquery-ui-css/images/ui-bg_flat_0_aaaaaa_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_flat_0_eeeeee_40x100.png" Url="Content/jquery-ui-css/images/ui-bg_flat_0_eeeeee_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_flat_55_ffffff_40x100.png" Url="Content/jquery-ui-css/images/ui-bg_flat_55_ffffff_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_flat_75_ffffff_40x100.png" Url="Content/jquery-ui-css/images/ui-bg_flat_75_ffffff_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_glass_55_fbf9ee_1x400.png" Url="Content/jquery-ui-css/images/ui-bg_glass_55_fbf9ee_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_glass_65_ffffff_1x400.png" Url="Content/jquery-ui-css/images/ui-bg_glass_65_ffffff_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_glass_75_dadada_1x400.png" Url="Content/jquery-ui-css/images/ui-bg_glass_75_dadada_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_glass_75_e6e6e6_1x400.png" Url="Content/jquery-ui-css/images/ui-bg_glass_75_e6e6e6_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_highlight-soft_100_f6f6f6_1x100.png" Url="Content/jquery-ui-css/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_highlight-soft_25_0073ea_1x100.png" Url="Content/jquery-ui-css/images/ui-bg_highlight-soft_25_0073ea_1x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_highlight-soft_50_dddddd_1x100.png" Url="Content/jquery-ui-css/images/ui-bg_highlight-soft_50_dddddd_1x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-bg_highlight-soft_75_cccccc_1x100.png" Url="Content/jquery-ui-css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-icons_0073ea_256x240.png" Url="Content/jquery-ui-css/images/ui-icons_0073ea_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-icons_222222_256x240.png" Url="Content/jquery-ui-css/images/ui-icons_222222_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-icons_454545_256x240.png" Url="Content/jquery-ui-css/images/ui-icons_454545_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-icons_666666_256x240.png" Url="Content/jquery-ui-css/images/ui-icons_666666_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-icons_888888_256x240.png" Url="Content/jquery-ui-css/images/ui-icons_888888_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-icons_ff0084_256x240.png" Url="Content/jquery-ui-css/images/ui-icons_ff0084_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\images\ui-icons_ffffff_256x240.png" Url="Content/jquery-ui-css/images/ui-icons_ffffff_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui-css\jquery-ui.css" Url="Content/jquery-ui-css/jquery-ui.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

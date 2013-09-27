@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="aa1e4912-b7e9-471f-90c3-de201a26fc3b" solutionId="aa1e4912-b7e9-471f-90c3-de201a26fc3c" resetWebServer="false" sharePointProductVersion="15.0" name="ScrumBoard" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="8fcc8935-9efd-4f28-8d1d-69cd0770c81e" />
+  </features>
+</package>

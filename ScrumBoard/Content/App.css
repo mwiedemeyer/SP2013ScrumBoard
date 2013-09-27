@@ -1,0 +1,210 @@
+﻿#boardTable
+{
+    empty-cells: show;
+    width: 100%;
+}
+
+    #boardTable th
+    {
+        font-style: italic;
+        text-align: center;
+    }
+
+    #boardTable .story
+    {
+        background-color: rgb(250,250,250);
+        border-right: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 16px 10px 16px 10px;
+        width: 150px;
+    }
+
+    #boardTable .plus
+    {
+        background-color: rgb(247,247,247);
+        border-right: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+        width: 25px;
+    }
+
+    #boardTable .todo
+    {
+        background-color: rgb(250, 250, 250);
+        border-right: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    #boardTable .inprogress
+    {
+        background-color: rgb(247, 247, 247);
+        border-right: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    #boardTable .verify
+    {
+        background-color: rgb(250,250,250);
+        border-right: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    #boardTable .done
+    {
+        background-color: rgb(247, 247, 247);
+        border-right: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+.plus-button
+{
+    cursor: pointer;
+}
+
+.storyBox
+{
+    padding: 5px;
+    min-height: 50px;
+    width: 145px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    background-color: rgb(247, 247, 247);
+}
+
+.task
+{
+    background-color: #fdff87;
+    width: 88px;
+    height: 77px;
+    line-height: 12px;
+    margin-top: 9px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    float: left;
+    position: relative;
+	-moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+}
+
+    .task .handle
+    {
+        left: 4px;
+        height: 12px;
+        z-index: 99;
+        cursor: move;
+    }
+
+    .task .title
+    {
+        left: 8px;
+        top: 13px;
+        width: 72px;
+        height: 50px;
+        text-align: center;
+        overflow: hidden;
+        font-size: 11px;
+        position: absolute;
+    }
+
+        .task .title .title-inner
+        {
+            font-family: Arial;
+            width: 99%;
+            display: block;
+            white-space: pre-wrap;
+            -ms-word-wrap: break-word;
+            word-wrap: break-word;
+        }
+
+    .task .assignment
+    {
+        left: 10px;
+        top: 63px;
+        width: 64px;
+        text-align: left;
+        overflow: hidden;
+        padding-left: 7px;
+        display: block;
+        position: absolute;
+        font-size: 7px;
+    }
+
+    .task a.edit-task
+    {
+        top: 58px !important;
+        right: 0px !important;
+        display: none;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .task:hover a.edit-task
+    {
+        display: block;
+    }
+
+    .task a.delete-task
+    {
+        overflow: hidden;
+        right: 0px !important;
+        position: absolute;
+        /*outline-width: medium;
+        outline-style: none;
+        outline-color: invert;*/
+        z-index: 100;
+        display: none;        
+        top: 0px !important;
+    }
+
+    .task:hover a.delete-task
+    {
+        display: block;
+    }
+
+a.edit-task
+{
+    padding: 2px 5px 3px 5px;
+    text-decoration: none;
+    border: 1px solid #999;
+    background-color: rgb(255, 255, 255);
+}
+
+a.delete-task
+{
+    border-top: #999 1px solid;
+    height: 9px;
+    border-right: #999 1px solid;
+    background: url(../Images/delete.gif) no-repeat 0px 0px;
+    border-bottom: #999 1px solid;    
+    padding: 0px;
+    margin: 0px;
+    border-left: #999 1px solid;    
+    width: 9px;
+    text-indent: -999999px;
+}
+
+.handle
+{
+    font-size: 7px;
+}
+
+.low .handle
+{
+    background-color: #16fb16;
+}
+
+.medium .handle
+{
+    background-color: #ffca1e;
+}
+
+.high .handle
+{
+    background-color: #ff3700;
+}
+
+#newStoryButton
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
