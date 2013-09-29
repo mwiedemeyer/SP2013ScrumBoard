@@ -1,4 +1,4 @@
 This is the source of the SharePoint 2013 ScrumBoard App.
 It can be found here in the SharePoint Store: http://office.microsoft.com/en-us/store/scrum-board-WA104114210.aspx?redir=0
 
-Please note: This is not the best JavaScript design as it was build mostly within one day. Next time I would use TypeScript.
+Please note: This is not the best JavaScript design as it was build mostly within one day and some time ago. This is just a port to SP2013. Next time I would use TypeScript.
